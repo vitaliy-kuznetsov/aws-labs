@@ -1,0 +1,9 @@
+variable "eks_ami_id" {}
+variable "eks_ami_id_bottlerocket" {}
+variable "nodes_sg" {} 
+variable "subnets" {}
+variable "cluster_name" {}
+variable "ca_data" {}
+variable "cluster_endpoint" {}
+variable "vpc_id" {}
+variable "pods_types" {}
